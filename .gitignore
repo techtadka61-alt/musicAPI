@@ -1,0 +1,28 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+!.env.example
+
+# Build files
+dist/
+coverage/
+
+# MongoDB local data
+.data/
+.storage/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript cache
+*.tsbuildinfo
